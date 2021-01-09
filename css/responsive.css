@@ -2,9 +2,11 @@
     .thm-btn.brd-btn {
         padding: 1rem 2.3rem;
     }
-    .btns-wrap > a + a {
+
+    .btns-wrap>a+a {
         margin-top: .9375rem;
     }
+
     .thm-btn {
         font-size: .85rem;
         padding: 1rem 2.3rem;
@@ -15,10 +17,12 @@
     .hero-wrap {
         min-height: 10vh;
     }
+
     .about-img {
         padding-left: 0;
     }
-    .about-img-item img{
+
+    .about-img-item img {
         width: 160px;
     }
 
@@ -35,6 +39,11 @@
     .sec-title-inner>h2 {
         font-size: 2.8rem;
         line-height: 2.8rem;
+    }
+
+    .res-caro div[class^="col"] {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 
     .footer-inner {
